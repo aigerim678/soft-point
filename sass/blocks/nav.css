@@ -1,0 +1,48 @@
+.nav {
+  margin-top: 35px;
+  margin-bottom: 120px;
+}
+
+.nav__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__links {
+  display: flex;
+}
+
+.nav__link + li {
+  margin-left: 3.625rem;
+}
+.nav__link a {
+  color: #021206;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in;
+}
+.nav__link a:hover {
+  opacity: 1;
+}
+
+.nav__login {
+  margin-right: 2.1875rem;
+  color: #021206;
+}
+
+.nav__sign-up {
+  color: #FFFFFF;
+}
+
+.button {
+  color: #FFFFFF;
+  background: #F44545;
+  border-radius: 6px;
+  padding: 0.9375rem 1.875rem;
+  transition: all 0.3s ease 0s;
+  font-weight: 500;
+}
+.button:hover {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}/*# sourceMappingURL=nav.css.map */

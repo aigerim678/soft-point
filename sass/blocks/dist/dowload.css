@@ -1,0 +1,37 @@
+.download {
+  background-color: rgba(142, 230, 201, 0.1);
+  height: 527px;
+  margin-bottom: 110px;
+}
+
+.download__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download__content {
+  max-width: 38.709%;
+  margin-top: 90px;
+  margin-right: 115px;
+}
+
+.dowload__text-wrapper {
+  margin-bottom: 1.666em;
+}
+
+.dowload__button {
+  color: white;
+}
+
+.download__bg {
+  position: relative;
+  width: 658px;
+}
+.download__bg__img {
+  position: absolute;
+  width: 658px;
+  height: 571px;
+  top: -267px;
+  right: -32px;
+}

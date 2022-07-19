@@ -1,0 +1,144 @@
+.feature {
+  margin-bottom: 241px;
+}
+
+.feature2 {
+  margin-bottom: 267px;
+}
+
+.feature__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature__content {
+  max-width: 36.37%;
+}
+
+.feature__text {
+  font-weight: 500;
+  padding-bottom: 1.111em;
+}
+
+.feature2-text {
+  font-weight: unset;
+}
+.feature2-text span {
+  font-weight: 500;
+}
+
+.feture__list {
+  font-size: 1.125rem;
+}
+
+.feature__list-item + li {
+  margin-top: 0.888em;
+}
+
+.list {
+  line-height: 1.6;
+}
+.list .list-item {
+  position: relative;
+  padding-left: 31px;
+}
+.list .list-item::before {
+  position: absolute;
+  top: 12%;
+  left: 0;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("/img/feature1/list-icon.svg");
+}
+
+.feature__bg {
+  position: relative;
+  padding-right: 49px;
+}
+.feature__bg::before {
+  position: absolute;
+  content: "";
+  top: -50px;
+  left: -50px;
+  z-index: -1;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: linear-gradient(176.15deg, #8EE7CA 19.68%, #87D2BA 96.85%);
+  box-shadow: 0px 4px 70px rgba(155, 215, 195, 0.8);
+}
+
+.little-circles-feature {
+  left: -10px;
+  top: -10px;
+  position: absolute;
+}
+.little-circles-feature::after {
+  right: 303%;
+  top: 0;
+}
+.little-circles-feature::before {
+  left: 0;
+  bottom: 303%;
+}
+
+.feature__img {
+  box-shadow: 3px 6px 44px rgba(204, 206, 204, 0.5);
+  border-radius: 10.2083px;
+}
+.feature__img_2 {
+  position: absolute;
+  top: 176px;
+  right: 0;
+  border-radius: 12px;
+}
+.feature__img_3 {
+  position: absolute;
+  bottom: -65px;
+  left: -34px;
+  border-radius: 15px;
+}
+
+.feature2-bg::before {
+  background: linear-gradient(180deg, #FEDF8B 0%, #FFC16B 100%), linear-gradient(180deg, #FFE6A2 0%, #F9D678 100%);
+  box-shadow: -4px 1px 80px rgba(246, 216, 135, 0.7);
+  left: unset;
+  top: -50px;
+  right: 0;
+}
+
+.feature2-img2 {
+  position: absolute;
+  top: -56px;
+  left: -45px;
+}
+
+.feature2-img3 {
+  position: absolute;
+  bottom: -60px;
+  left: -42px;
+}
+
+.feature2-img4 {
+  position: absolute;
+  right: -56px;
+  bottom: -25px;
+}
+
+.little-circles-feature2 {
+  right: 27px;
+  top: -10px;
+  left: unset;
+}
+.little-circles-feature2::before {
+  left: -3px;
+}
+.little-circles-feature2::after {
+  top: -1px;
+}
+
+.feature2-content {
+  max-width: 40.24%;
+}

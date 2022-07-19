@@ -1,0 +1,60 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #424242;
+    line-height: 1.5;
+}
+
+.none {
+    display: none !important;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    display: block;
+    margin-left: -10000px;
+    background: transparent;
+    font-size: 0;
+
+}
+
+.container {
+    max-width: 79.375rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1399px) {
+    .container {
+        width: 100%;
+    }
+}
+
+
+.container-wide {
+    width: 1536px;
+}
+
+@media (max-width: 1535px) {
+    .container-wide {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 991px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+.no-scroll {
+    overflow: hidden;
+}
